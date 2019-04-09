@@ -1,6 +1,6 @@
 <?php
 
-namespace frontend\tests\unit\models;
+namespace frontend\themes\basic\tests\unit\models;
 
 
 use Codeception\Test\Unit;
@@ -10,7 +10,7 @@ use frontend\models\ResendVerificationEmailForm;
 class ResendVerificationEmailFormTest extends Unit
 {
     /**
-     * @var \frontend\tests\UnitTester
+     * @var \frontend\themes\basic\tests\UnitTester
      */
     protected $tester;
 

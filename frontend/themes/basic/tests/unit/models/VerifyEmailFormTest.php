@@ -1,6 +1,6 @@
 <?php
 
-namespace frontend\tests\unit\models;
+namespace frontend\themes\basic\tests\unit\models;
 
 use common\fixtures\UserFixture;
 use frontend\models\VerifyEmailForm;
@@ -8,7 +8,7 @@ use frontend\models\VerifyEmailForm;
 class VerifyEmailFormTest extends \Codeception\Test\Unit
 {
     /**
-     * @var \frontend\tests\UnitTester
+     * @var \frontend\themes\basic\tests\UnitTester
      */
     protected $tester;
 

@@ -1,5 +1,5 @@
 <?php
-namespace frontend\tests\unit\models;
+namespace frontend\themes\basic\tests\unit\models;
 
 use Yii;
 use frontend\models\ContactForm;

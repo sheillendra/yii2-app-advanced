@@ -1,7 +1,7 @@
 <?php
-namespace frontend\tests\functional;
+namespace frontend\themes\basic\tests\functional;
 
-use frontend\tests\FunctionalTester;
+use frontend\themes\basic\tests\FunctionalTester;
 
 class AboutCest
 {

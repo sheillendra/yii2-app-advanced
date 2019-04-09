@@ -1,5 +1,5 @@
 <?php
-namespace frontend\tests\unit\models;
+namespace frontend\themes\basic\tests\unit\models;
 
 use common\fixtures\UserFixture;
 use frontend\models\SignupForm;
@@ -7,7 +7,7 @@ use frontend\models\SignupForm;
 class SignupFormTest extends \Codeception\Test\Unit
 {
     /**
-     * @var \frontend\tests\UnitTester
+     * @var \frontend\themes\basic\tests\UnitTester
      */
     protected $tester;
 

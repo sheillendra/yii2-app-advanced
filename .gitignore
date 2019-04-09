@@ -35,18 +35,19 @@ phpunit.phar
 /.vagrant
 
 # ignore generated files
+/common/tests/_bootstrap.php
 /frontend/web/index.php
 /frontend/web/index-test.php
 /frontend/web/robots.txt
-/frontend/test/_bootstrap.php
+/frontend/tests/_bootstrap.php
 /backend/web/index.php
 /backend/web/index-test.php
 /backend/web/robots.txt
-/backend/test/_bootstrap.php
+/backend/tests/_bootstrap.php
 /api/web/index.php
 /api/web/index-test.php
 /api/web/robots.txt
-/api/test/_bootstrap.php
+/api/tests/_bootstrap.php
 
 # environment
 .env
