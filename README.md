@@ -17,9 +17,9 @@ deploying the application in different environments.
 
 Documentation is at [docs/guide/README.md](docs/guide/README.md).
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Build Status](https://travis-ci.org/yiisoft/yii2-app-advanced.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-app-advanced)
+[![Latest Stable Version](https://img.shields.io/packagist/v/sheillendra/yii2-app-advanced.svg)](https://packagist.org/packages/sheillendra/yii2-app-advanced)
+[![Total Downloads](https://img.shields.io/packagist/dt/sheillendra/yii2-app-advanced.svg)](https://packagist.org/packages/sheillendra/yii2-app-advanced)
+[![Build Status](https://api.travis-ci.org/sheillendra/yii2-app-advanced.svg?branch=master)](https://travis-ci.org/sheillendra/yii2-app-advanced)
 
 DIRECTORY STRUCTURE
 -------------------
