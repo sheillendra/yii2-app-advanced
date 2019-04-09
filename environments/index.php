@@ -29,8 +29,11 @@
  * ```
  */
 return [
-    'Development' => [
-        'path' => 'dev',
+    /**
+     * local PC
+     */
+    'Alpha' => [
+        'path' => 'alpha',
         'setWritable' => [
             'backend/runtime',
             'backend/web/assets',
@@ -48,6 +51,53 @@ return [
             'frontend/config/main-local.php',
         ],
     ],
+    /**
+     * server development
+     */
+    'Beta' => [
+        'path' => 'beta',
+        'setWritable' => [
+            'backend/runtime',
+            'backend/web/assets',
+            'console/runtime',
+            'frontend/runtime',
+            'frontend/web/assets',
+        ],
+        'setExecutable' => [
+            'yii',
+            'yii_test',
+        ],
+        'setCookieValidationKey' => [
+            'backend/config/main-local.php',
+            'common/config/codeception-local.php',
+            'frontend/config/main-local.php',
+        ],
+    ],
+    /**
+     * server production with debug
+     */
+    'Staging' => [
+        'path' => 'staging',
+        'setWritable' => [
+            'backend/runtime',
+            'backend/web/assets',
+            'console/runtime',
+            'frontend/runtime',
+            'frontend/web/assets',
+        ],
+        'setExecutable' => [
+            'yii',
+            'yii_test',
+        ],
+        'setCookieValidationKey' => [
+            'backend/config/main-local.php',
+            'common/config/codeception-local.php',
+            'frontend/config/main-local.php',
+        ],
+    ],
+    /**
+     * server production
+     */
     'Production' => [
         'path' => 'prod',
         'setWritable' => [
