@@ -2,6 +2,7 @@
 include:
     - common
     - frontend
+    - frontend/themes/basic
     - backend
 paths:
     log: console/runtime/logs

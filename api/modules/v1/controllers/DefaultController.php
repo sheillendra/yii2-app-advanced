@@ -2,19 +2,21 @@
 
 namespace api\modules\v1\controllers;
 
-use yii\web\Controller;
+use yii\rest\Controller;
+use yii\base\InvalidRouteException;
 
 /**
- * Default controller for the `v1` module
+ * Site controller
  */
-class DefaultController extends Controller
-{
+class DefaultController extends Controller {
+
     /**
-     * Renders the index view for the module
+     * Displays homepage.
+     *
      * @return string
      */
-    public function actionIndex()
-    {
-        return $this->render('index');
+    public function actionIndex() {
+        throw new InvalidRouteException('Contact administrator for more information.');
     }
+
 }

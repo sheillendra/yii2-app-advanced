@@ -40,6 +40,7 @@ return [
             'console/runtime',
             'frontend/runtime',
             'frontend/web/assets',
+            'api/runtime',
         ],
         'setExecutable' => [
             'yii',
@@ -49,6 +50,7 @@ return [
             'backend/config/main-local.php',
             'common/config/codeception-local.php',
             'frontend/config/main-local.php',
+            'api/config/main-local.php',
         ],
     ],
     /**
@@ -62,6 +64,7 @@ return [
             'console/runtime',
             'frontend/runtime',
             'frontend/web/assets',
+            'api/runtime',
         ],
         'setExecutable' => [
             'yii',
@@ -71,10 +74,11 @@ return [
             'backend/config/main-local.php',
             'common/config/codeception-local.php',
             'frontend/config/main-local.php',
+            'api/config/main-local.php',
         ],
     ],
     /**
-     * server production with debug
+     * server production with debug and test
      */
     'Staging' => [
         'path' => 'staging',
@@ -84,6 +88,7 @@ return [
             'console/runtime',
             'frontend/runtime',
             'frontend/web/assets',
+            'api/runtime',
         ],
         'setExecutable' => [
             'yii',
@@ -93,6 +98,7 @@ return [
             'backend/config/main-local.php',
             'common/config/codeception-local.php',
             'frontend/config/main-local.php',
+            'api/config/main-local.php',
         ],
     ],
     /**
@@ -106,6 +112,7 @@ return [
             'console/runtime',
             'frontend/runtime',
             'frontend/web/assets',
+            'api/runtime',
         ],
         'setExecutable' => [
             'yii',
@@ -113,6 +120,7 @@ return [
         'setCookieValidationKey' => [
             'backend/config/main-local.php',
             'frontend/config/main-local.php',
+            'api/config/main-local.php',
         ],
     ],
 ];
