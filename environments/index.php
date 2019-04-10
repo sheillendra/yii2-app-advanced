@@ -32,7 +32,7 @@ return [
     /**
      * local PC
      */
-    'Dev' => [
+    'Development' => [
         'path' => 'alpha',
         'setWritable' => [
             'backend/runtime',
