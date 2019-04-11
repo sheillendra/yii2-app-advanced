@@ -4,6 +4,7 @@ include:
     - frontend
     - frontend/themes/basic
     - backend
+    # - api
 paths:
     log: console/runtime/logs
 settings:
