@@ -56,3 +56,7 @@ phpunit.phar
 .env-alpha
 .env-beta
 .env-staging
+
+# credential
+google-services.json
+google-service-account.json
