@@ -40,6 +40,7 @@ return [
             'console/runtime',
             'frontend/runtime',
             'frontend/web/assets',
+            'frontend/web/admin/assets',
             'api/runtime',
         ],
         'setExecutable' => [
@@ -47,6 +48,7 @@ return [
             'yii_test',
         ],
         'setCookieValidationKey' => [
+            'api/config/main-local.php',
             'backend/config/main-local.php',
             'common/config/codeception-local.php',
             'frontend/config/main-local.php'
@@ -63,6 +65,7 @@ return [
             'console/runtime',
             'frontend/runtime',
             'frontend/web/assets',
+            'frontend/web/admin/assets',
             'api/runtime',
         ],
         'setExecutable' => [
@@ -70,6 +73,7 @@ return [
             'yii_test',
         ],
         'setCookieValidationKey' => [
+            'api/config/main-local.php',
             'backend/config/main-local.php',
             'common/config/codeception-local.php',
             'frontend/config/main-local.php'
@@ -86,6 +90,7 @@ return [
             'console/runtime',
             'frontend/runtime',
             'frontend/web/assets',
+            'frontend/web/admin/assets',
             'api/runtime',
         ],
         'setExecutable' => [
@@ -93,6 +98,7 @@ return [
             'yii_test',
         ],
         'setCookieValidationKey' => [
+            'api/config/main-local.php',
             'backend/config/main-local.php',
             'common/config/codeception-local.php',
             'frontend/config/main-local.php'
@@ -109,12 +115,14 @@ return [
             'console/runtime',
             'frontend/runtime',
             'frontend/web/assets',
+            'frontend/web/admin/assets',
             'api/runtime',
         ],
         'setExecutable' => [
             'yii',
         ],
         'setCookieValidationKey' => [
+            'api/config/main-local.php',
             'backend/config/main-local.php',
             'frontend/config/main-local.php'
         ],

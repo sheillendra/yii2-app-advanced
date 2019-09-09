@@ -39,6 +39,12 @@ phpunit.phar
 /frontend/web/index.php
 /frontend/web/index-test.php
 /frontend/web/robots.txt
+/frontend/web/admin/index.php
+/frontend/web/admin/index-test.php
+/frontend/web/admin/robots.txt
+/frontend/web/api/index.php
+/frontend/web/api/index-test.php
+/frontend/web/api/robots.txt
 /frontend/tests/_bootstrap.php
 /backend/web/index.php
 /backend/web/index-test.php
