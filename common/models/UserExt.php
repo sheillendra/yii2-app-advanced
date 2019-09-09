@@ -22,7 +22,7 @@ use yii\web\IdentityInterface;
  * @property integer $updated_at
  * @property string $password write-only password
  */
-class UserExt extends user implements IdentityInterface {
+class UserExt extends User implements IdentityInterface {
 
     const STATUS_DELETED = 0;
     const STATUS_INACTIVE = 9;
