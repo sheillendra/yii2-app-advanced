@@ -55,6 +55,31 @@ return [
         ],
     ],
     /**
+     * Auto .env like heroku
+     */
+    'Autoenv' => [
+        'path' => 'autoenv',
+        'setWritable' => [
+            'backend/runtime',
+            'backend/web/assets',
+            'console/runtime',
+            'frontend/runtime',
+            'frontend/web/assets',
+            'frontend/web/admin/assets',
+            'api/runtime',
+        ],
+        'setExecutable' => [
+            'yii',
+            'yii_test',
+        ],
+        'setCookieValidationKey' => [
+            'api/config/main-local.php',
+            'backend/config/main-local.php',
+            'common/config/codeception-local.php',
+            'frontend/config/main-local.php'
+        ],
+    ],
+    /**
      * server development
      */
     'Beta' => [
