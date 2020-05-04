@@ -38,11 +38,7 @@ class m180730_110736_create_user_account extends Migration
         $admin->data = ['level' => UserExt::ROLE_ADMIN_LEVEL];
         $authManager->add($admin);
 
-        $adminGroup = $authManager->createPermission(UserExt::PERMISSION_ADMIN_GROUP);
-        $adminGroup->description = 'Admin group permission';
-        $authManager->add($adminGroup);
-        $authManager->addChild($superadmin, $adminGroup);
-        $authManager->addChild($admin, $adminGroup);
+        $authManager->addChild($superadmin, $admin);
 
         $user = new UserExt();
         $user->username = 'superadmin';
@@ -55,7 +51,6 @@ class m180730_110736_create_user_account extends Migration
         $user->save();
 
         $authManager->assign($superadmin, $user->id);
-        $authManager->assign($admin, $user->id);
         
         $system = new UserExt();
         $system->username = 'system';

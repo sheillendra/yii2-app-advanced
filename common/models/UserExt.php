@@ -24,6 +24,9 @@ use yii\web\IdentityInterface;
  */
 class UserExt extends User implements IdentityInterface {
 
+    /**
+     * status
+     */
     const STATUS_DELETED = 0;
     const STATUS_INACTIVE = 9;
     const STATUS_ACTIVE = 10;
@@ -32,14 +35,18 @@ class UserExt extends User implements IdentityInterface {
         self::STATUS_INACTIVE => 'Inactive',
         self::STATUS_ACTIVE => 'Active',
     ];
+
+    /**
+     * role
+     */
     const ROLE_SUPERADMIN = 'superadmin';
     const ROLE_ADMIN = 'admin';
+
     /**
-     * 
+     * role level
      */
     const ROLE_SUPERADMIN_LEVEL = 1;
     const ROLE_ADMIN_LEVEL = 2;
-    const PERMISSION_ADMIN_GROUP = 'admin_group';
 
     /**
      * {@inheritdoc}
