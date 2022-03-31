@@ -1,4 +1,5 @@
 <?php
+
 return [
     'components' => [
         'db' => [
@@ -12,7 +13,7 @@ return [
             'schemaCache' => 'cache',
         ],
         'mailer' => [
-            'class' => 'yii\swiftmailer\Mailer',
+            'class' => \yii\symfonymailer\Mailer::class,
             'viewPath' => '@common/mail',
         ],
     ],
