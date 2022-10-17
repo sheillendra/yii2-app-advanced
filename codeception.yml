@@ -7,6 +7,6 @@ include:
     - backend/themes/basic
     # - api
 paths:
-    log: console/runtime/logs
+    output: console/runtime/output
 settings:
     colors: true
