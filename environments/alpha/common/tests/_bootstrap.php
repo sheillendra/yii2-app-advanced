@@ -7,5 +7,5 @@ require_once __DIR__ .  '/../../vendor/autoload.php';
 require_once __DIR__ .  '/../../vendor/yiisoft/yii2/Yii.php';
 require __DIR__ . '/../config/bootstrap.php';
 
-$dotenv = Dotenv\Dotenv::create(__DIR__ . '/../../', '.env-alpha');
-$dotenv->load();
+$dotenv = new \Symfony\Component\Dotenv\Dotenv();
+$dotenv->load(__DIR__ . '/../../.env-alpha');

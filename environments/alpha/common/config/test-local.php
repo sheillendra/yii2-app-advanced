@@ -2,7 +2,7 @@
 return [
     'components' => [
         'db' => [
-            'dsn' => getenv('DB_TEST_DSN'),
+            'dsn' => $_ENV['DB_TEST_DSN'],
         ],
     ],
 ];

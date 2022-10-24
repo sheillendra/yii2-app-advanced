@@ -7,8 +7,9 @@ require __DIR__ . '/../../../vendor/yiisoft/yii2/Yii.php';
 require __DIR__ . '/../../../common/config/bootstrap.php';
 require __DIR__ . '/../../../backend/config/bootstrap.php';
 
-$dotenv = Dotenv\Dotenv::create(__DIR__ . '/../../../', '.env-alpha');
-$dotenv->load();
+$dotenv = new \Symfony\Component\Dotenv\Dotenv();
+$dotenv->load(__DIR__ . '/../../../.env-alpha');
+
 
 $config = yii\helpers\ArrayHelper::merge(
     require __DIR__ . '/../../../common/config/main.php',

@@ -5,7 +5,7 @@ include:
     - frontend/themes/basic
     - backend
     - backend/themes/basic
-    # - api
+    - api
 paths:
     output: console/runtime/output
 settings:

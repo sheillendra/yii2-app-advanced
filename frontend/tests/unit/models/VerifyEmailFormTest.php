@@ -49,7 +49,7 @@ class VerifyEmailFormTest extends \Codeception\Test\Unit
 
         verify($user->username)->equals('test.test');
         verify($user->email)->equals('test@mail.com');
-        verify($user->status)->equals(\common\models\User::STATUS_ACTIVE);
+        verify($user->status)->equals(\common\models\UserExt::STATUS_ACTIVE);
         verify($user->validatePassword('Test1234'))->true();
     }
 }
